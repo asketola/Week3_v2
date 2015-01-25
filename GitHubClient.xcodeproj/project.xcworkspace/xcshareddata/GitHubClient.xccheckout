@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C4171239-233B-4AEE-94FA-BFE15A416281</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GitHubClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2D3A6B5137A71A9A939C4DE1B57A477C670A651A</key>
+		<string>https://github.com/asketola/Week3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GitHubClient.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D3A6B5137A71A9A939C4DE1B57A477C670A651A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/asketola/Week3.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2D3A6B5137A71A9A939C4DE1B57A477C670A651A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D3A6B5137A71A9A939C4DE1B57A477C670A651A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GitHubClient</string>
+		</dict>
+	</array>
+</dict>
+</plist>
