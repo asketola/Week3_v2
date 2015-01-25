@@ -16,11 +16,11 @@ class WebViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      self.webView.frame = self.view.frame
-      self.view.addSubview(self.webView)
+      self.webView.frame = self.view.frame // <- defines the webView's size
+      self.view.addSubview(self.webView)  // <- adds it to the subView
       
-      let request = NSURLRequest(URL: NSURL(string: self.url)!)
-      self.webView.loadRequest(request)
+      let request = NSURLRequest(URL: NSURL(string: self.url)!)  // <- sends the request for the website
+      self.webView.loadRequest(request)  // loads the website into the webView
 
       self.navigationController?.delegate = nil // <- to kill the zombie view controller
 

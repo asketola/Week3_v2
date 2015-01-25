@@ -50,7 +50,7 @@ class SearchRepositoriesViewController: UIViewController, UITableViewDataSource,
   
   // prevents you from typing in invalid charcters into the search bar
   func searchBar(searchBar: UISearchBar, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
-    return text.validate()  // hooks with the extension.swift file
+    return text.validate()  // hooks with the extension.swift file, prevents invalid text input
   }
   
   // UISearchBarDelegate

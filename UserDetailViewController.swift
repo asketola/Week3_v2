@@ -12,21 +12,17 @@ class UserDetailViewController: UIViewController {
   
   var selectedUser : User!
   
-
+  // Sets up the UIlabels
   @IBOutlet weak var imageView: UIImageView!
   @IBOutlet weak var userNameLabel: UILabel!
   
     override func viewDidLoad() {
         super.viewDidLoad()
       
+      // populates the images and texts 
       self.imageView.image = selectedUser.avatarImage
       self.userNameLabel.text = selectedUser.name
-      // self.navigationController?.delegate = nil // <- to kill the zombie view controller - this doesn't seem to work
-
-     
-      
-
-
+      self.navigationController?.delegate = nil // <- to kill the zombie view controller - the back button seems to work with and without this code
         // Do any additional setup after loading the view.
     }
 
